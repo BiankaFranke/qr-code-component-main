@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 3rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    max-width: 80vw;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.code img {
+    border-radius: 1rem;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.description h1 {
+    font-weight: 700;
+}
+
+.description p {
+    padding-top: 1rem;
+    color: hsl(220, 15%, 55%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .description h1 {
+        font-size: 20px;
+    }
+
+    .qr {
+        max-width: 30vw;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .description h1 {
+        font-size: 30px;
+    }
+
+    .qr {
+        max-width: 30vw;
+    }
+}
