@@ -9,14 +9,12 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
-    padding-top: 3rem;
-}
-
-main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .qr {
@@ -75,16 +73,12 @@ footer {
     }
 
     .qr {
-        max-width: 30vw;
+        max-width: 375px;
     }
 }
 
 @media only screen and (min-width: 800px) {
     .description h1 {
         font-size: 30px;
-    }
-
-    .qr {
-        max-width: 30vw;
     }
 }
